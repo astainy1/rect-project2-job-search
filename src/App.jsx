@@ -13,6 +13,7 @@ import NotFound from "./pages/NotFound";
 import JobPage, { JobLoader } from "./pages/JobPage";
 import AddJobs from "./pages/AddJobs";
 import EditJob from "./pages/EditJob";
+import Login from "./pages/Login";
 
 function App() {
   // Add Job
@@ -53,7 +54,9 @@ function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<MainLayout />}>
-        createRoutesFromElements(
+        createReactFromElements(
+        <Route path="/login" element={<Login />} />
+        ) createRoutesFromElements(
         <Route index element={<HomePage />} />
         ), createReactFromElements(
         <Route path="/jobs" element={<ViewAllJobs />} />

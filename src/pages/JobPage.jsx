@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import { FaArrowLeft, FaLocationArrow } from "react-icons/fa";
 import PreLoader from "../components/PreLoader";
+import ManageJob from "../components/ManageJob";
 
 const JobPage = ({ deleteSingleJob }) => {
   const navigate = useNavigate();
@@ -24,6 +25,7 @@ const JobPage = ({ deleteSingleJob }) => {
   //   const [loading, setLoading] = useState(true);
   //   const { id } = useParams();
   const singleJob = useLoaderData();
+  console.log(singleJob.salary);
 
   //   useEffect(() => {
   //     try {
@@ -103,21 +105,7 @@ const JobPage = ({ deleteSingleJob }) => {
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-md mt-6">
-                <h3 className="text-xl font-bold mb-6">Manage Job</h3>
-                <Link
-                  to={`/edit-job/${singleJob.id}`}
-                  className="bg-teal-500 hover:bg-teal-600 text-white text-center font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
-                >
-                  Edit Job
-                </Link>
-                <button
-                  className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
-                  onClick={() => onJobDelete(singleJob.id)}
-                >
-                  Delete Job
-                </button>
-              </div>
+              <ManageJob getID={singleJob.id} />
             </aside>
           </div>
         </div>

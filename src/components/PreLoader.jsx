@@ -1,12 +1,20 @@
-const customCss = {
+import { BounceLoader, ClipLoader, MoonLoader } from "react-spinners";
+
+const override = {
   display: "block",
-  margin: "100px auto",
-  text: "center"
+  margin: "0 auto",
+  borderColor: "teal",
 };
 const PreLoader = ({ loading }) => {
   return (
-    <div className={customCss} size={150} color="teal">
-      Loading...
+    <div className="sweet-loading z-50 h-[100vh]">
+      <BounceLoader
+        loading={loading}
+        cssOverride={override}
+        size={150}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />
     </div>
   );
 };

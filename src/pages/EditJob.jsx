@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 const EditJob = ({ submitEditedJob }) => {
   // const [editedJob, setEditedJob] = useState([]);
   const { id } = useParams();
-  const redirect = useNavigate();
+  const redirectJob = useNavigate();
 
   const singleJobEdit = useLoaderData();
   //Fetch the data from Json file base on the selected id
@@ -49,6 +49,7 @@ const EditJob = ({ submitEditedJob }) => {
       type,
       location,
       description,
+      salary,
       company: {
         name: companyName,
         description: companyDescription,
@@ -60,10 +61,9 @@ const EditJob = ({ submitEditedJob }) => {
     console.log(editedJobs);
     submitEditedJob(editedJobs);
     toast.success("Job updated successfully!");
-    redirect(`/jobs/${id}`);
+    return redirectJob(`/jobs/${id}`);
   };
 
-  console.log(toast);
   return (
     <>
       <section className="bg-teal-50">

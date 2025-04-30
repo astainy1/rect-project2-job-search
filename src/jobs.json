@@ -6,6 +6,7 @@
       "type": "Full-Time",
       "location": "Montserrado, Sinkor",
       "description": "We are seeking a talented Front-End Developer to join our team in Montserrado, Sinkor. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
+      "salary": "$80K - 90K",
       "company": {
         "name": "NewTek Solutions",
         "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
@@ -19,10 +20,11 @@
       "type": "Remote",
       "location": "Margibi, Kakata",
       "description": "Join our team as a Front-End Developer in sunny Margibi, Kakata City. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
+      "salary": "Under $50K",
       "company": {
         "name": "Veneer Solutions",
         "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
-        "contactEmail": "contact@loremipsum.com",
+        "contactEmail": "contact@veneersolutions.com",
         "contactPhone": "(+231) 88-430-5145"
       }
     },
@@ -46,6 +48,7 @@
       "type": "Remote",
       "location": "Maryland, Harper",
       "description": "Join our team as a Part-Time Front-End Developer in beautiful Maryland, Harper. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
+      "salary": "$60K - 70K",
       "company": {
         "name": "Alpha Elite",
         "description": "Alpha Elite is a dynamic startup specializing in digital marketing and web development. We are committed to fostering a diverse and inclusive workplace where creativity and innovation thrive.",
@@ -59,10 +62,11 @@
       "type": "Full-Time",
       "location": "Bomi, Tubmanburg",
       "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Bomi, Tubmanburg. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
+      "salary": "$90K - 100K",
       "company": {
         "name": "Browning Technologies",
         "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
-        "contactEmail": "contact@consecteturadipisicing.com",
+        "contactEmail": "contact@browningtech.com",
         "contactPhone": "(+231) 88-402-5615"
       }
     },
